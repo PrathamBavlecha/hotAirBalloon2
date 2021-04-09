@@ -58,7 +58,8 @@ else if(keyDown(DOWN_ARROW)){
   fill("red")
   noStroke()
   textSize(30)
-  text("Use the arrow keys to move the balloon",200,10)
+  textAlign(CENTER)
+  text("Use the arrow keys to move the balloon",400,50)
 }
 
 function move(x,y){
