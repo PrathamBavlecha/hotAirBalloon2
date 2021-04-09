@@ -55,7 +55,10 @@ else if(keyDown(DOWN_ARROW)){
 }
   drawSprites();
 
-  text("Use the arrow keys to move the balloon")
+  fill("red")
+  noStroke()
+  textSize(30)
+  text("Use the arrow keys to move the balloon",200,10)
 }
 
 function move(x,y){
